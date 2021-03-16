@@ -1,0 +1,13 @@
+name: pyrolite-workshop-env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python>=3.7
+  - nbgitpuller
+  - pip
+  - jupyterlab
+  - pip:
+      - pyrolite[skl] # latest PyPI release
